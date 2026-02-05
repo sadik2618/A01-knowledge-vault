@@ -6,6 +6,21 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
+
+.btn-1{
+    width: 164px 44px;
+    background-color: #469165;
+    padding: 16px 16.5px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400px;
+    cursor: pointer;
+    display: flex;
+    width: 251px;
+    gap: 10px;
+}
 /* main- */
 
 nav{
@@ -128,6 +143,137 @@ nav .menu a{
     color: #FFFFFF;
   }
 
+  .card-struct{
+    width:100%;
+    max-width: 1536px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .card-struct .card-struct-container{
+    margin-top: 40px;
+  }
+  .card-struct .card-struct-container .card-heading h1{
+    font-size: 48px;
+    color: #001931;
+  }
+.card-struct .card-struct-container .card-heading p{
+  color: #627382;
+  line-height: 20px;
+  font-size: 16px;
+}
+.card-struct-container .card{
+  display: flex;
+  margin-top: 44px;
+  justify-content: space-around;
+  gap: 24px;
+  text-align: center;
+}
+.card .card-container{
+  padding-top: 69.5px;
+  /* border: 1px solid #001931; */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.126);
+  border-radius: 8px;
+  margin: 0 auto;
+  
+}
+.card .card-container img{
+  background-color: #F95555;
+  border-radius: 1000px;
+  padding: 14.4px;
+  margin-bottom: 16px;
+}
+.card .card-container h3{
+  font-size: 24px;
+  font-weight: 500px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.card .card-container p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 69.5px;
+}
 
+.Solution{
+  width: 100%;
+  max-width: 1536px;
+  text-align: center;
+  margin: 0 auto;
+}
+.Solution .Solution-container{
+  display: flex;
+  padding: 120px;
+  gap: 60px;
+}
 
+.Solution-container .Solution-text{
+  padding: 102px 0 102px 0;
+  text-align: left;
+}
+.Solution-text .Solution-heading .mini{
+  font-size: 16px;
+  line-height: 20px;
+  color: #469165;
+  font-weight: 400px;
+  margin-bottom: 16px;
 
+}
+.Solution-text .Solution-heading h1{
+  font-size: 48px;
+  color: #001931;
+ margin-bottom: 16px;
+}
+.Solution-text .Solution-heading .nor{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+.Solution-text .Solution-phase p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #001931;
+  display: flex;
+  gap: 6px;
+  margin-bottom: 16px;
+  font-weight: 500px;
+
+}
+.challenging{
+  width: 1360px;
+  background-color:#F7F6F2;
+  text-align: center;
+  margin:0 auto;
+}
+.challenging  .challenging-container{
+  padding: 80px 40px;
+  align-items: center;
+}
+.challenging .challenging-container h1{
+  font-size: 40px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.challenging .challenging-container p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+ margin-bottom: 24px;
+}
+.challenging .challenging-container button{
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.challenging .challenging-container .list{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  display: flex;
+  justify-content:center;
+  gap: 25px;
+
+}
+.challenging .challenging-container .list .without{
+ list-style: none;
+}
